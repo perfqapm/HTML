@@ -14,35 +14,48 @@
    See the License for the specific language governing permissions and
    limitations under the License.
 */
-#stats td, th
-{
+.legend {
+    margin-left: -40px;
+    font-size: 12px;
+    display: inline;
+    font-family: 'Open Sans';
+    font-weight: bold;
+}
 
-    width: 9%;//140px;
-    height: 30px;
-}
-#stats td
-{
-    text-align: center;
-}
-#stats th
-{
-    font-weight:bold;
-}
-.blue
-{
-    background-color: #dff0d8;
-}
-#errors td, th
-{
-    text-align: center;
-    width: 400px;
-    height: 30px;
-}
-#errors td
+.panel-footer
 {
 
 }
-#errors th
+
+.subLegend
 {
-    font-weight:bold;
+
+}
+
+.legend li > div {
+    display: inline-block;
+    margin-right: 3px;
+    margin-left: 5px;
+}
+
+.legend li label {
+    margin-left: 1px;
+    margin-right: 10px;
+    color: black;
+    font-family: Open sans;
+    /*width: 200px;*/
+}
+li
+{
+    list-style-type:none;
+    display: inline-block;
+}
+
+.nav-third-level
+{
+    font-size: 12px;
+}
+
+.legend-disabled {
+    border-color: #818181 !important;
 }
